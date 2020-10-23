@@ -1,6 +1,6 @@
 require 'open-uri'
-uri = URI.parse(url)class GetRequester
 
+class GetRequester
   attr_reader :url
   
   def initialize(url)
@@ -8,6 +8,6 @@ uri = URI.parse(url)class GetRequester
   end
   
   def get_response_body()
-    uri = URI.parse(url)class GetRequester
+    uri = URI.parse(url)
   end
 end
